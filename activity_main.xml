@@ -64,7 +64,7 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button_split"
+            android:id="@+id/button_divide"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
