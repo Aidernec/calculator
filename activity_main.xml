@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/style_layout">
+
+        <TextView
+            android:id="@+id/answer"
+            style="@style/style_view" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/style_layout">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button7"
+            style="@style/style_button"
+            android:text="@string/_7" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button8"
+            style="@style/style_button"
+            android:text="@string/_8" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button9"
+            style="@style/style_button"
+            android:text="@string/_9" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_divide"
+            style="@style/style_button"
+            android:text="@string/divide" />
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/style_layout">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button4"
+            style="@style/style_button"
+            android:text="@string/_4" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button5"
+            style="@style/style_button"
+            android:text="@string/_5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button6"
+            style="@style/style_button"
+            android:text="@string/_6" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_multiply"
+            style="@style/style_button"
+            android:text="@string/multipl" />
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/style_layout">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button1"
+            style="@style/style_button"
+            android:text="@string/_1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            style="@style/style_button"
+            android:text="@string/_2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button3"
+            style="@style/style_button"
+            android:text="@string/_3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_plus"
+            style="@style/style_button"
+            android:text="@string/plus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button0"
+            style="@style/style_button_weight_4"
+            android:text="@string/_0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_equally"
+            style="@style/style_button_weight_2"
+            android:text="@string/equal" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_minus"
+            style="@style/style_button_weight_2"
+            android:text="@string/minus" />
+    </LinearLayout>
+
+</LinearLayout>
